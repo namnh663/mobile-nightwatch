@@ -1,12 +1,10 @@
 ![screenshot](https://raw.githubusercontent.com/namnh663/mobile-nightwatch/main/folder.png)
 
-Nightwatch.js is an integrated framework for performing automated end-to-end testing on web applications and websites, across all major browsers. It is written in Node.js and uses the W3C WebDriver API to interact with various browsers.
+The native mobile app testing capability in Nightwatch is build with Appium under the hood.
 
-It is a complete solution for end-to-end and cross-browser testing. It aims to simplify the process of writing and running various types of tests, including:
+Appium is a NodeJS based server that exposes REST APIs compliant with the W3C WebDriver protocol that wraps automation libraries from vendors (UIAutomator2/Espresso, Apple XCUITest/UIAutomation).
 
-- end-to-end tests on all major web browsers
-- unit tests of Node.js services
-- integration tests of HTTP APIs
+In an end-end scenario Nightwatch makes request to Appium server, server talks to native framework using different platform drivers for executing commands and finally returns HTTP response back to Nightwatch.
 
 ## Getting Started
 
