@@ -1,9 +1,4 @@
-<p align="center">
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#project-structure">Project Structure</a>
-</p>
-
-![screenshot](https://github.com/namnh663/nightwatchjs/blob/main/run.gif)
+![screenshot](https://raw.githubusercontent.com/namnh663/mobile-nightwatch/main/folder.png)
 
 Nightwatch.js is an integrated framework for performing automated end-to-end testing on web applications and websites, across all major browsers. It is written in Node.js and uses the W3C WebDriver API to interact with various browsers.
 
