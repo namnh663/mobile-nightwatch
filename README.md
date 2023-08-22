@@ -19,7 +19,7 @@ Config in `nightwatch.conf.js`:
 This code snippet is defining the desired capabilities for an Android emulator in an Appium test. It specifies the platform name as 'android', sets the device name as 'emulator-5554', and provides the path to the APK file to be tested. It also sets the automation name to 'UiAutomator2' and disables the new command timeout.
 
 ```javascript
-    'app.android.emulator': {
+'app.android.emulator': {
         extends: 'app',
         'desiredCapabilities': {
             browserName: null,
@@ -31,5 +31,18 @@ This code snippet is defining the desired capabilities for an Android emulator i
                 newCommandTimeout: 0
             }
         }
-    },
+},
+```
+
+Appium Inspector v2023.8.2
+
+https://inspector.appiumpro.com/
+
+```json
+{
+  "appium:deviceName": "emulator-5554",
+  "platformName": "Android",
+  "appium:automationName": "uiautomator2",
+  "appium:app": "/Users/hoainamnguyen/Downloads/mobile-nightwatch/nightwatch/apps/saucelabs.apk"
+}
 ```
