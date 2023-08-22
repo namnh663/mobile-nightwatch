@@ -14,7 +14,7 @@
 module.exports = {
   // An array of folders (excluding subfolders) where your tests are located;
   // if this is not specified, the test source must be passed as the second argument to the test runner.
-  src_folders: ['test','nightwatch/examples'],
+  src_folders: ['test', 'nightwatch/examples'],
 
   // See https://nightwatchjs.org/guide/concepts/page-object-model.html
   page_objects_path: ['nightwatch/page-objects'],
@@ -27,10 +27,10 @@ module.exports = {
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-plugins.html
   plugins: [],
-  
+
   // See https://nightwatchjs.org/guide/concepts/test-globals.html
   globals_path: '',
-  
+
   webdriver: {},
 
   test_workers: {
@@ -51,12 +51,12 @@ module.exports = {
       desiredCapabilities: {
         browserName: 'chrome'
       },
-      
+
       webdriver: {
         start_process: true,
         server_path: ''
       },
-      
+
     },
 
     app: {
@@ -82,9 +82,9 @@ module.exports = {
         keep_alive: false,
         start_process: false
       }
-  },
-  
-   'app.android.emulator': {
+    },
+
+    'app.android.emulator': {
       extends: 'app',
       'desiredCapabilities': {
         // More capabilities can be found at https://github.com/appium/appium-uiautomator2-driver#capabilities
@@ -104,7 +104,7 @@ module.exports = {
         }
       }
     },
-    
+
   },
-  
+
 };
