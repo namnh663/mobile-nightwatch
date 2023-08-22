@@ -43,6 +43,6 @@ https://inspector.appiumpro.com/
   "appium:deviceName": "emulator-5554",
   "platformName": "Android",
   "appium:automationName": "uiautomator2",
-  "appium:app": "/Users/hoainamnguyen/Downloads/mobile-nightwatch/nightwatch/apps/saucelabs.apk"
+  "appium:app": "../mobile-nightwatch/nightwatch/apps/saucelabs.apk"
 }
 ```
