@@ -38,6 +38,8 @@ Appium Inspector v2023.8.2
 
 https://inspector.appiumpro.com/
 
+Start sever: `appium --allow-cors --base-path /wd/hub`
+
 ```json
 {
   "appium:deviceName": "emulator-5554",
